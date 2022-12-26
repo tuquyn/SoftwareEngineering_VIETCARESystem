@@ -1,7 +1,7 @@
 // Java program generate a random AlphaNumeric String
 // using Math.random() method
 
-public class RandomString {
+public class RandomID {
 
     // function to generate a random string of length n
     static String getAlphaNumericString(int n)
@@ -31,16 +31,16 @@ public class RandomString {
         return sb.toString();
     }
 
-    public static void main(String[] args)
-    {
-
-        // Get the size n
-        int n = 20;
-
-        // Get and display the alphanumeric string
-        System.out.println(RandomString
-                .getAlphaNumericString(n));
-    }
+//    public static void main(String[] args)
+//    {
+//
+//        // Get the size n
+//        int n = 20;
+//
+//        // Get and display the alphanumeric string
+//        System.out.println(RandomID
+////                .getAlphaNumericString(n));
+//    }
 }
 
 // https://www.geeksforgeeks.org/generate-random-string-of-given-size-in-java/

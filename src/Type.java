@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public enum Type {
+public enum Type {
+    automatic,
+    manual
 }

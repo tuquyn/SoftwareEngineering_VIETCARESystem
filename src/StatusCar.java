@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public enum StatusCar {
+public enum StatusCar {
+    PICKEDUP,
+    RESERVED,
+    RENTREADY,
+    RETURNED,
+    SERVICE_NEEDED,
+    REMOVED
 }

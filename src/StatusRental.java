@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public enum StatusRental {
+public enum StatusRental {
+    PICKEDUP,
+    RESERVED,
+    EXCEPTIONAL,
+    RETURNED
 }
